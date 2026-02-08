@@ -1,9 +1,6 @@
-import useHeaderTitle from "@/hooks/ShowHeaderTitle";
 import { Text, View } from "react-native";
 
-export default function Reports() {
-    // Display Headertitles
-    useHeaderTitle("My Reports")
+export default function IItem1() {
   return (
     <>
       <View
@@ -13,7 +10,7 @@ export default function Reports() {
           alignItems: "center",
         }}
       >
-        <Text>Reports  page displayed now </Text>
+        <Text>IItem1 page displayed now </Text>
       </View>
     </>
   );

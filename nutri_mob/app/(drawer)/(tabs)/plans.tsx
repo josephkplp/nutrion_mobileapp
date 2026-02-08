@@ -1,6 +1,9 @@
+import useHeaderTitle from "@/hooks/ShowHeaderTitle";
 import { Text, View } from "react-native";
 
 export default function Plans() {
+    //Display the header title
+    useHeaderTitle("My Plans")
   return (
     <>
       <View
