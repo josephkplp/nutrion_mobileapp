@@ -1,5 +1,16 @@
+import React from "react";
+import { PaperProvider } from "react-native-paper";
+// Replace react-native StatusBar with expo-status-bar
 import { Stack } from "expo-router";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 export default function RootLayout() {
-  return <Stack />;
+  return (
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <PaperProvider>
+        {/* We use a Stack at the root to allow for modals or login screens later */}
+        <Stack screenOptions={{ headerShown: false }} />
+      </PaperProvider>
+    </GestureHandlerRootView>
+  );
 }
