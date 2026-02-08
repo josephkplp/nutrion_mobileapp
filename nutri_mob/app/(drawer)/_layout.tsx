@@ -14,13 +14,13 @@ export default function DrawerLayout() {
       <Drawer.Screen name="item2" options={{title:"item 2",drawerIcon: ({ color, size }) => (
             <MaterialCommunityIcons name="home" size={size} color={color} />
           )}}/>
-      <Drawer.Screen name="item3" options={{title:"items 3",drawerIcon: ({ color, size }) => (
+      <Drawer.Screen name="item3" options={{title:"item 3",drawerIcon: ({ color, size }) => (
             <MaterialCommunityIcons name="home" size={size} color={color} />
           )}}/>
-      <Drawer.Screen name="item4" options={{title:"item 4",drawerIcon: ({ color, size }) => (
+      <Drawer.Screen name="items4" options={{title:"item 4",drawerIcon: ({ color, size }) => (
             <MaterialCommunityIcons name="home" size={size} color={color} />
           )}}/>
-      <Drawer.Screen name="item5" options={{title:"item 5",drawerIcon: ({ color, size }) => (
+      <Drawer.Screen name="items5" options={{title:"item 5",drawerIcon: ({ color, size }) => (
             <MaterialCommunityIcons name="home" size={size} color={color} />
           )}}/>
       <Drawer.Screen name="item6" options={{title:"item 6",drawerIcon: ({ color, size }) => (
